@@ -1,15 +1,16 @@
 body {
   background-color: #ffcc99;
   font-size: 20px;
-  text-align: center;
   color: white;
   font-family: arial;
+  width: 500px;
+  margin: auto;
 }
 
 h1 {
   font-size: 40px;
   color: white;
   font-family: cursive;
-  text-align: center;
+  margin: auto;
 
 }
