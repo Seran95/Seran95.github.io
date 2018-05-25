@@ -8,6 +8,7 @@
 
     <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
     <script src="assets/js/main.js" charset="utf-8"></script>
+    <script src="assets/js/audio.js" charset="utf-8"></script>
 
 
 
@@ -24,37 +25,11 @@
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-<script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-</script>
 
 
-<script language="javascript" type="text/javascript">
 
-<script>
- function play(){
-      var audio = document.getElementById("audio");
-      audio.play();
-                }
-  </script>
 
-<img src="htttp://www.yoursite.com/image.png" value="PLAY"  onclick="play()">
-<audio id="audio" src="yoursite.com/song.ogg" ></audio>
+
 
 
 
@@ -64,7 +39,7 @@ function topFunction() {
           <h3>By Patrick Davison</h3>
 
 
-      <img src="assets/images/homer.png" alt="homer" align="center">
+      <img class="play_homer" src="assets/images/homer.png" alt="homer" align="center">
 
       <p>In The Future of the Internet—and How to Stop It, Jonathan Zittrain
 describes the features of a generative network. A generative network encourages
