@@ -12,17 +12,20 @@ color: white;
 }
 
 a{
-color: red;
+color:
 
 }
 
 p{
-
+font-family: arial;
+color: white;
+font-weight: normal;
 
 }
 
 .row{
 border-bottom: 1px solid white;
+overflow: hidden;
 
 }
 
@@ -36,12 +39,32 @@ width: 50%;
 
 }
 
+.col1of3{
+width: 33.333%;
+
+}
+
+.col1of4{
+width: 25%;
+
+}
+
 .bg_red{
-background-color: red;
+background-color: #FF5733;
+
+}
+
+.bg_orange{
+background-color: #FFBD33;
+
+}
+
+.bg_green{
+background-color: #75FF33;
 
 }
 
 .bg_blue{
-background-color: blue;
+background-color: #33FFBD;
 
 }

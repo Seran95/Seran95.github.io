@@ -1,5 +1,5 @@
 body {
-  background-color: #ffcc99;
+  background: linear-gradient(to bottom right, pink, orange);
   font-size: 20px;
   color: white;
   font-family: arial;
@@ -13,4 +13,10 @@ h1 {
   color: white;
   font-family: cursive;
   margin: auto;
+  padding-top: 10px;
+}
+
+img {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
