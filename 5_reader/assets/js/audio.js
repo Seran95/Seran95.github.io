@@ -1,28 +1,31 @@
 $(document).ready(function() {
 
-  var audioHomer = document.createElement('audio');
-  audioHomer.setAttribute('src', './bell.mp3');
+  var audioBell = document.createElement('audio');
+  audioBell.setAttribute('src', 'h2.mp3');
   $.get();
-  audioHomer.addEventListener("load", function() {
-    audioHomer.play();
+  audioBell.addEventListener("load", function() {
+    audioBell.play();
+  }, true);
+
+  var audioHorn = document.createElement('audio');
+  audioHorn.setAttribute('src', 'https://www.soundjay.com/misc/hohner-melodica-1.mp3');
+  $.get();
+  audioHorn.addEventListener("load", function() {
+    audioHorn.play();
   }, true);
 
 
 
 
 
-
-$('.play_Homer').clickToggle(function() {
-audioHomer.play();
-},
-function() {
-audioHomer.pause();
-});
+  $('.play_homer').click(function() {
+    audioBell.play();
+  });
 
 
-
-
-
+  $('.pause_bell').click(function() {
+    audioBell.pause();
+  });
 
 
 
