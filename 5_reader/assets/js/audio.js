@@ -8,7 +8,7 @@ $(document).ready(function() {
   }, true);
 
   var audioFILENAME2 = document.createElement('audio');
-  audioFILENAME2.setAttribute('src', 'https://rawgit.com/Seran95/Seran95.github.io/master/5_reader/assets/audio/bell.mp3');
+  audioFILENAME2.setAttribute('src', 'https://rawgit.com/Seran95/Seran95.github.io/master/5_reader/assets/js/._homernofunction.mp3');
   $.get();
   audioFILENAME2.addEventListener("load", function() {
     audioFILENAME2.play();
@@ -31,7 +31,7 @@ $(document).ready(function() {
     audioHomer.play();
   });
 
-  $('.play_homer2222').click(function() {
+  $('.play_audioFILENAME2').click(function() {
     audioFILENAME2.play();
   });
 
